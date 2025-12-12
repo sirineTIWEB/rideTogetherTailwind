@@ -12,9 +12,10 @@
     <section class="hero bg-linear-to-bl from-blue-300 from-5% to-amber-50 min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
-                <h1
-                    class="text-3xl lg:text-6xl font-bold">
-                    Partagez vos trajets, <span class="text-transparent bg-clip-text bg-linear-to-b from-blue-300 from-10% to-indigo-600">économisez ensemble</span> </h1>
+                <h1 class="text-3xl lg:text-6xl font-bold">
+                    Partagez vos trajets, <span
+                        class="text-transparent bg-clip-text bg-linear-to-b from-blue-300 from-10% to-indigo-600">économisez
+                        ensemble</span> </h1>
                 <p class="py-6">
                     RideTogether connecte conducteurs et passagers pour des trajets
                     quotidiens plus économiques et écologiques
@@ -28,14 +29,17 @@
     </section>
     <section class="hero">
         <div class="hero-content text-center">
-            <div class="">
-                <h1 class="text-2xl lg:text-5xl text-black font-bold">
-                    Pourquoi choisir RideTogether ?</h1>
-                <p class="py-6 text-black">
-                    Une solution moderne pour des trajets partagés au quotidien
-                </p>
+            <div class="flex flex-col justify-evenly items-center h-screen">
+                <div>
+                    <h1 class="text-2xl lg:text-5xl text-black font-bold">
+                        Pourquoi choisir RideTogether ?</h1>
+                    <p class="py-6 text-black">
+                        Une solution moderne pour des trajets partagés au quotidien
+                    </p>
+                </div>
+
                 <div class="flex gap-5 flex-wrap justify-center">
-                    <div class="card card-lg lg:w-96 text-black shadow-sm">
+                    <div class="card card-lg lg:w-96 text-black shadow-sm h-fit">
                         <div class="card-body">
                             <!-- <span class="badge badge-xs badge-warning">Most Popular</span> -->
                             <div class="flex justify-between">
@@ -76,8 +80,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- pulse effect on hover card -->
                     <div
-                        class="card card-xl lg:w-96 bg-linear-to-bl from-blue-300 from-5% to-amber-50 shadow-sm text-white">
+                        class="h-fit card card-xl lg:w-96 bg-linear-to-bl from-blue-300 from-5% to-amber-50 shadow-sm text-white hover:scale-105 transition-transform duration-300">
                         <div class="card-body">
                             <span class="badge badge-xs badge-warning">Most Popular</span>
                             <div class="flex justify-between">
@@ -129,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card card-lg lg:w-96 text-black shadow-sm">
+                    <div class="card card-lg lg:w-96 text-black shadow-sm h-fit">
                         <div class="card-body">
                             <!-- <span class="badge badge-xs badge-warning">Most Popular</span> -->
                             <div class="flex justify-between">
@@ -183,67 +188,71 @@
             </div>
     </section>
     <footer class="bg-gray-900 text-gray-300 py-12">
-    <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
 
-            <!-- Colonne 1 : Logo et description -->
-            <div>
-                <h3 class="text-white text-xl font-bold mb-4">RideTogether</h3>
-                <p class="text-sm">
-                    La solution de covoiturage urbain qui connecte les personnes
-                    pour des trajets plus économiques et écologiques.
-                </p>
-            </div>
-
-            <!-- Colonne 2 : Navigation -->
-            <div>
-                <h4 class="text-white font-semibold mb-4">Navigation</h4>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-white transition">Accueil</a></li>
-                    <li><a href="#" class="hover:text-white transition">Comment ça marche</a></li>
-                    <li><a href="#" class="hover:text-white transition">Tarifs</a></li>
-                    <li><a href="#" class="hover:text-white transition">Blog</a></li>
-                </ul>
-            </div>
-
-            <!-- Colonne 3 : Légal -->
-            <div>
-                <h4 class="text-white font-semibold mb-4">Légal</h4>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-white transition">À propos</a></li>
-                    <li><a href="#" class="hover:text-white transition">Contact</a></li>
-                    <li><a href="#" class="hover:text-white transition">CGU</a></li>
-                    <li><a href="#" class="hover:text-white transition">Confidentialité</a></li>
-                </ul>
-            </div>
-
-            <!-- Colonne 4 : Réseaux sociaux -->
-            <div>
-                <h4 class="text-white font-semibold mb-4">Suivez-nous</h4>
-                <div class="flex space-x-4">
-                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
-                        <span>f</span>
-                    </a>
-                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
-                        <span>𝕏</span>
-                    </a>
-                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
-                        <span>in</span>
-                    </a>
-                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
-                        <span>IG</span>
-                    </a>
+                <!-- Colonne 1 : Logo et description -->
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-4">RideTogether</h3>
+                    <p class="text-sm">
+                        La solution de covoiturage urbain qui connecte les personnes
+                        pour des trajets plus économiques et écologiques.
+                    </p>
                 </div>
+
+                <!-- Colonne 2 : Navigation -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Accueil</a></li>
+                        <li><a href="#" class="hover:text-white transition">Comment ça marche</a></li>
+                        <li><a href="#" class="hover:text-white transition">Tarifs</a></li>
+                        <li><a href="#" class="hover:text-white transition">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Légal -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Légal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">À propos</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition">CGU</a></li>
+                        <li><a href="#" class="hover:text-white transition">Confidentialité</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Réseaux sociaux -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Suivez-nous</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+                            <span>f</span>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+                            <span>𝕏</span>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+                            <span>in</span>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-600 transition">
+                            <span>IG</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>© 2025 RideTogether. Tous droits réservés.</p>
+            </div>
         </div>
-
-        <!-- Copyright -->
-        <div class="border-t border-gray-800 pt-8 text-center text-sm">
-            <p>© 2025 RideTogether. Tous droits réservés.</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 
